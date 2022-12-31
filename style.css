@@ -1,0 +1,401 @@
+.logo {
+    width: 3px;
+    height: auto;
+}
+
+img {}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: rgb(130, 57, 57);
+}
+
+h4 {
+    font-size: 20px;
+    color: rgb(199, 157, 67);
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: rgb(131, 147, 87);
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: brown;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.whitee {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: rgb(225, 217, 217);
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+}
+
+body {
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 70px;
+    background-color: rgb(225, 201, 166);
+    box-shadow: 0 5px 15px rgb(160, 117, 101);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar il {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar il a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(119, 93, 38);
+    transition: 0.3s ease;
+}
+
+#navbar il a:hover,
+#navbar il a.active {
+    color: rgb(160, 36, 73);
+}
+
+#navbar il a.active::after,
+#navbar il a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: rgb(160, 36, 73);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#hero {
+    background-image: url(//www.trentwoodfencingoxfordshire.co.uk/SiteAssets/Images/News/Wooden-Fence-In-The-Garden.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: rgb(201, 99, 59);
+}
+
+#hero button {
+    background-image: url(//th.bing.com/th/id/R.6378939a17f89793f727065a739d5f1c?rik=7uu0XWPI6hOzxw&riu=http%3a%2f%2fwww.vhv.rs%2ffile%2fmax%2f33%2f332185_paint-brush-stroke-png.png&ehk=cknWZ3GS8QUAR2fiQbKPFwsVcTs7FYLj7OeYZkwtPDI%3d&risl=&pid=ImgRaw&r=0);
+    background-color: transparent;
+    color: rgb(199, 155, 186);
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(rgb(173, 113, 113), rgb(216, 230, 161), rgb(119, 70, 59), alpha);
+    border: 1px solid rgb(99, 51, 33);
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgb(189, 237, 100);
+}
+
+#feature .fe-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: rgb(130, 66, 43);
+    background-color: rgb(255, 231, 123);
+}
+
+#feature .fe-box:nth-child(2) h6 {
+    background-color: rgb(245, 211, 58);
+}
+
+#feature .fe-box:nth-child(3) h6 {
+    background-color: rgb(202, 173, 44);
+}
+
+#feature .fe-box:nth-child(4) h6 {
+    background-color: rgb(153, 134, 48);
+}
+
+#feature .fe-box:nth-child(5) h6 {
+    background-color: rgb(129, 119, 72);
+}
+
+#feature .fe-box:nth-child(6) h6 {
+    background-color: rgb(74, 67, 38);
+}
+
+#prodeuct1 {
+    text-align: center;
+}
+
+#prodeuct1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+#prodeuct1.pro {
+    width: 23%;
+    min-height: 250px;
+    padding: 10px 12px;
+    border-radius: 25px;
+    border: 1px solid rgb(163, 44, 0);
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(204, 72, 72, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+    border-radius: 4px;
+}
+
+/* משומה הפוזישן רלטיב לא עושה שזה יהיה במקום שלו */
+
+#prodeuct1.pro :hover {
+    box-shadow: 20px 20px 35px rgba(204, 72, 72, 0.02);
+}
+
+#prodeuct1.pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#prodeuct1.pro.des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#prodeuct1.pro.des span {
+    color: brown;
+    font-size: 12px;
+}
+
+#prodeuct1.pro.des h5 {
+    padding-top: 7px;
+    color: rgb(82, 54, 17);
+    font-size: 14px;
+}
+
+#prodeuct1.pro.des i {
+    font-size: 12px;
+    color: rgb(213, 238, 17);
+}
+
+#prodeuct1.pro.des h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(164, 12, 12);
+}
+
+#prodeuct1 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: rgb(192, 137, 137);
+    font-weight: 500;
+    color: rgb(165, 134, 42);
+    border: 1px solid rgb(168, 172, 180);
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(//www.photo-art.co.il/wp-content/uploads/2015/08/ah_IMG_4018_1200-1024x683.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    color: aliceblue;
+    font-size: 16px;
+}
+
+#banner h2 {
+    color: aliceblue;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner h2 span {
+    color: brown;
+}
+
+#banner button:hover {
+    background-color: rgb(170, 130, 71);
+    color: rgb(163, 89, 78);
+}
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(//www.photo-art.co.il/wp-content/uploads/2015/08/ah_IMG_4018_1200-1024x683.jpg);
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner h4 {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2 {
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span {
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+    background-color: aqua;
+    border: 1px solid coral;
+}
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(//www.photo-art.co.il/wp-content/uploads/2015/08/ah_IMG_4018_1200-1024x683.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 .banner-box2 {
+    background-image: url();
+    /* לשנות תמונה */
+}
+
+#banner3 .banner-box3 {
+    background-image: url();
+    /*   לשנותלשנות תמונה */
+}
+
+#banner3 h2 {
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3 {
+    color: rgb(193, 116, 44);
+    font-weight: 800;
+    font-size: 15px;
+}
